@@ -1,0 +1,20 @@
+# build output
+build/
+*.exe
+*.obj
+*.o
+*.a
+*.d
+
+# local editor and CMake files
+.vscode/
+CMakeUserPresets.json.bak
+CMakeLists.txt.user
+
+# data the app writes when you run it
+*.dat
+simulation_logs.txt
+
+# OS junk
+Thumbs.db
+.DS_Store
